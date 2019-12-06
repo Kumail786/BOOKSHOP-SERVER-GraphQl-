@@ -2,7 +2,7 @@ const express = require("express");
 const graphqlHTTP = require('express-graphql')
 const schema = require('./server-schema/schema')
 const mongoose = require('mongoose')
-const Mongo_URI = 'mongodb+srv://Kumail786:Rawjani123@cluster0-ayjpi.mongodb.net/bookshop'
+const Mongo_URI = '<Write your own>'
 const Port = 4000
 const app = express();
 //connecting to mongodb Atlas
